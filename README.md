@@ -1,4 +1,4 @@
-# my-claude-skills
+# ultra-review-lite
 
 Custom Claude Code skills.
 
@@ -6,12 +6,12 @@ Custom Claude Code skills.
 
 **Mac / Linux / Windows Git Bash:**
 ```bash
-curl -sSL https://raw.githubusercontent.com/nik121212T/my-claude-skills/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/nik121212T/ultra-review-lite/main/install.sh | bash
 ```
 
 **Windows PowerShell (natif):**
 ```powershell
-irm https://raw.githubusercontent.com/nik121212T/my-claude-skills/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/nik121212T/ultra-review-lite/main/install.ps1 | iex
 ```
 
 Requires `git`. Restart Claude Code after install.

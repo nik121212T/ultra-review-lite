@@ -1,4 +1,4 @@
-# Usage: irm https://raw.githubusercontent.com/nik121212T/my-claude-skills/main/install.ps1 | iex
+# Usage: irm https://raw.githubusercontent.com/nik121212T/ultra-review-lite/main/install.ps1 | iex
 
 $ErrorActionPreference = "Stop"
 
@@ -9,7 +9,7 @@ Write-Host "Installing custom Claude skills..."
 New-Item -ItemType Directory -Force -Path $dest | Out-Null
 
 if (Test-Path $tmp) { Remove-Item $tmp -Recurse -Force }
-git clone --depth=1 https://github.com/nik121212T/my-claude-skills.git $tmp
+git clone --depth=1 https://github.com/nik121212T/ultra-review-lite.git $tmp
 
 Get-ChildItem $tmp -Directory | ForEach-Object {
     $name = $_.Name

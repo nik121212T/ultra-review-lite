@@ -1,10 +1,10 @@
 #!/bin/bash
-# Usage: curl -sSL https://raw.githubusercontent.com/nik121212T/my-claude-skills/main/install.sh | bash
+# Usage: curl -sSL https://raw.githubusercontent.com/nik121212T/ultra-review-lite/main/install.sh | bash
 
 set -e
 
 SKILLS_DIR="$HOME/.claude/skills"
-REPO="https://github.com/nik121212T/my-claude-skills.git"
+REPO="https://github.com/nik121212T/ultra-review-lite.git"
 TMP=$(mktemp -d)
 
 echo "Installing custom Claude skills..."
